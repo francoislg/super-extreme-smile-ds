@@ -1,0 +1,11 @@
+#8 bit bitmap 
+-gB8
+ 
+#Tile the image 
+-gt
+
+-mRa
+ 
+#cyan transparent 
+-gT 00FFFF
+ 

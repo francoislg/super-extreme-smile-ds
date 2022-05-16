@@ -1,0 +1,57 @@
+﻿  grit /c/NDS/Super_Extreme_Smile/Super_Extreme_Smile/data/achvbot.png -fts -oachvbot
+  achvbot.s
+  arm-eabi-gcc -MMD -MP -MF /c/NDS/Super_Extreme_Smile/Super_Extreme_Smile/build/achvbot.d -x assembler-with-cpp -g -mthumb -mthumb-interwork -c achvbot.s -o achvbot.o 
+  grit /c/NDS/Super_Extreme_Smile/Super_Extreme_Smile/data/backgroundtop.png -fts -obackgroundtop
+  backgroundtop.s
+  arm-eabi-gcc -MMD -MP -MF /c/NDS/Super_Extreme_Smile/Super_Extreme_Smile/build/backgroundtop.d -x assembler-with-cpp -g -mthumb -mthumb-interwork -c backgroundtop.s -o backgroundtop.o 
+  grit /c/NDS/Super_Extreme_Smile/Super_Extreme_Smile/data/backgroundtopgame.png -fts -obackgroundtopgame
+  backgroundtopgame.s
+  arm-eabi-gcc -MMD -MP -MF /c/NDS/Super_Extreme_Smile/Super_Extreme_Smile/build/backgroundtopgame.d -x assembler-with-cpp -g -mthumb -mthumb-interwork -c backgroundtopgame.s -o backgroundtopgame.o 
+  grit /c/NDS/Super_Extreme_Smile/Super_Extreme_Smile/data/ball.png -fts -oball
+  ball.s
+  arm-eabi-gcc -MMD -MP -MF /c/NDS/Super_Extreme_Smile/Super_Extreme_Smile/build/ball.d -x assembler-with-cpp -g -mthumb -mthumb-interwork -c ball.s -o ball.o 
+  grit /c/NDS/Super_Extreme_Smile/Super_Extreme_Smile/data/camp.png -fts -ocamp
+  camp.s
+  arm-eabi-gcc -MMD -MP -MF /c/NDS/Super_Extreme_Smile/Super_Extreme_Smile/build/camp.d -x assembler-with-cpp -g -mthumb -mthumb-interwork -c camp.s -o camp.o 
+  grit /c/NDS/Super_Extreme_Smile/Super_Extreme_Smile/data/campbot.png -fts -ocampbot
+  campbot.s
+  arm-eabi-gcc -MMD -MP -MF /c/NDS/Super_Extreme_Smile/Super_Extreme_Smile/build/campbot.d -x assembler-with-cpp -g -mthumb -mthumb-interwork -c campbot.s -o campbot.o 
+  grit /c/NDS/Super_Extreme_Smile/Super_Extreme_Smile/data/mmbottom.png -fts -ommbottom
+  mmbottom.s
+  arm-eabi-gcc -MMD -MP -MF /c/NDS/Super_Extreme_Smile/Super_Extreme_Smile/build/mmbottom.d -x assembler-with-cpp -g -mthumb -mthumb-interwork -c mmbottom.s -o mmbottom.o 
+  grit /c/NDS/Super_Extreme_Smile/Super_Extreme_Smile/data/mmsprites.png -fts -ommsprites
+  mmsprites.s
+  arm-eabi-gcc -MMD -MP -MF /c/NDS/Super_Extreme_Smile/Super_Extreme_Smile/build/mmsprites.d -x assembler-with-cpp -g -mthumb -mthumb-interwork -c mmsprites.s -o mmsprites.o 
+  grit /c/NDS/Super_Extreme_Smile/Super_Extreme_Smile/data/mmtop.png -fts -ommtop
+  mmtop.s
+  arm-eabi-gcc -MMD -MP -MF /c/NDS/Super_Extreme_Smile/Super_Extreme_Smile/build/mmtop.d -x assembler-with-cpp -g -mthumb -mthumb-interwork -c mmtop.s -o mmtop.o 
+  grit /c/NDS/Super_Extreme_Smile/Super_Extreme_Smile/data/opsprites.png -fts -oopsprites
+  opsprites.s
+  arm-eabi-gcc -MMD -MP -MF /c/NDS/Super_Extreme_Smile/Super_Extreme_Smile/build/opsprites.d -x assembler-with-cpp -g -mthumb -mthumb-interwork -c opsprites.s -o opsprites.o 
+  grit /c/NDS/Super_Extreme_Smile/Super_Extreme_Smile/data/splashbot.png -fts -osplashbot
+  splashbot.s
+  arm-eabi-gcc -MMD -MP -MF /c/NDS/Super_Extreme_Smile/Super_Extreme_Smile/build/splashbot.d -x assembler-with-cpp -g -mthumb -mthumb-interwork -c splashbot.s -o splashbot.o 
+  grit /c/NDS/Super_Extreme_Smile/Super_Extreme_Smile/data/splashtop.png -fts -osplashtop
+  splashtop.s
+  arm-eabi-gcc -MMD -MP -MF /c/NDS/Super_Extreme_Smile/Super_Extreme_Smile/build/splashtop.d -x assembler-with-cpp -g -mthumb -mthumb-interwork -c splashtop.s -o splashtop.o 
+  main.cpp
+  arm-eabi-g++ -MMD -MP -MF /c/NDS/Super_Extreme_Smile/Super_Extreme_Smile/build/main.d -g -Wall -O2 -march=armv5te -mtune=arm946e-s -fomit-frame-pointer -ffast-math -mthumb -mthumb-interwork -I/c/NDS/Super_Extreme_Smile/Super_Extreme_Smile/include -I/c/devkitPro/libnds/include -I/c/devkitPro/libnds/include -I/c/NDS/Super_Extreme_Smile/Super_Extreme_Smile/build -DARM9 -fno-rtti -fno-exceptions -c /c/NDS/Super_Extreme_Smile/Super_Extreme_Smile/source/main.cpp -o main.o 
+  c:/NDS/Super_Extreme_Smile/Super_Extreme_Smile/source/main.cpp:200:1: warning: missing braces around initializer for 'short int [8192]'
+  c:/NDS/Super_Extreme_Smile/Super_Extreme_Smile/source/main.cpp:200:1: warning: missing braces around initializer for 'short int [8192]'
+  c:/NDS/Super_Extreme_Smile/Super_Extreme_Smile/source/main.cpp:200:1: warning: missing braces around initializer for 'short int [8192]'
+  c:/NDS/Super_Extreme_Smile/Super_Extreme_Smile/source/main.cpp:200:1: warning: missing braces around initializer for 'short int [8192]'
+  c:/NDS/Super_Extreme_Smile/Super_Extreme_Smile/source/main.cpp:200:1: warning: missing braces around initializer for 'short int [8192]'
+  c:/NDS/Super_Extreme_Smile/Super_Extreme_Smile/source/main.cpp:200:1: warning: missing braces around initializer for 'short int [8192]'
+  c:/NDS/Super_Extreme_Smile/Super_Extreme_Smile/source/main.cpp:200:1: warning: missing braces around initializer for 'short int [8192]'
+  c:/NDS/Super_Extreme_Smile/Super_Extreme_Smile/source/main.cpp:200:1: warning: missing braces around initializer for 'short int [8192]'
+  c:/NDS/Super_Extreme_Smile/Super_Extreme_Smile/source/main.cpp:200:1: warning: missing braces around initializer for 'short int [8192]'
+  c:/NDS/Super_Extreme_Smile/Super_Extreme_Smile/source/main.cpp:200:1: warning: missing braces around initializer for 'short int [8192]'
+  c:/NDS/Super_Extreme_Smile/Super_Extreme_Smile/source/main.cpp:200:1: warning: missing braces around initializer for 'short int [8192]'
+  c:/NDS/Super_Extreme_Smile/Super_Extreme_Smile/source/main.cpp:200:1: warning: missing braces around initializer for 'short int [8192]'
+  c:/NDS/Super_Extreme_Smile/Super_Extreme_Smile/source/main.cpp:200:1: warning: missing braces around initializer for 'short int [8192]'
+  c:/NDS/Super_Extreme_Smile/Super_Extreme_Smile/source/main.cpp:200:1: warning: missing braces around initializer for 'short int [8192]'
+  c:/NDS/Super_Extreme_Smile/Super_Extreme_Smile/source/main.cpp:200:1: warning: missing braces around initializer for 'short int [8192]'
+  linking Super_Extreme_Smile.elf
+  Nintendo DS rom tool 1.48 - Jul  7 2010
+  by Rafael Vuijk, Dave Murphy, Alexei Karpenko
+  built ... Super_Extreme_Smile.nds
